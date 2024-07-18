@@ -9,6 +9,7 @@
 :root {
   --main-color: #0284c7;
   --second-color: #dbeafe;
+  --hover-color: #0495dd;
 }
 
 .container {
@@ -53,6 +54,10 @@
 }
 
 .sidebar li {
-  margin-top: 8px;
   font-size: 1.1rem;
+  padding: 10px;
+}
+
+.sidebar li:hover {
+  background-color: var(--hover-color);
 }
