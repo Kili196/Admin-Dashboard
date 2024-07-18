@@ -5,7 +5,7 @@
 
 :root {
   --main-color: #0284c7;
-  --second-color: hsl(214, 43%, 83%);
+  --second-color: #dbeafe;
 }
 
 .container {
@@ -20,6 +20,8 @@
 }
 .nav {
   background-color: white;
+  box-shadow: 0 4px 6px -4px rgba(0, 0, 0, 0.3);
+  z-index: 1;
 }
 
 .main {
