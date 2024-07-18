@@ -158,3 +158,21 @@
   justify-content: center;
   margin: 15px;
 }
+
+/* main **/
+
+.main {
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+}
+
+.project-section {
+  padding: 20px;
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+.announcements-section {
+  padding: 20px;
+  font-size: 1.5rem;
+  font-weight: 800;
+}
