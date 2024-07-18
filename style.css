@@ -34,3 +34,25 @@
   background-color: var(--main-color);
   grid-row: 1/4;
 }
+
+.sidebar-container {
+  padding: 10px;
+  display: grid;
+  grid-template-rows: 1fr 2fr 2fr;
+  gap: 15px;
+}
+
+.sidebar-container h1 {
+  color: white;
+  font-weight: 900;
+}
+
+.sidebar ul {
+  color: white;
+  font-weight: 500;
+}
+
+.sidebar li {
+  margin-top: 8px;
+  font-size: 1.1rem;
+}
