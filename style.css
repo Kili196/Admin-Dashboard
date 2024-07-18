@@ -15,7 +15,7 @@
 .container {
   display: grid;
   grid-template-columns: 1fr 5fr;
-  grid-template-rows: 1fr 1fr 6fr;
+  grid-template-rows: 1fr 2fr 8fr;
   min-height: 100vh;
 }
 
@@ -60,4 +60,38 @@
 
 .sidebar li:hover {
   background-color: var(--hover-color);
+}
+
+.profile-image {
+  width: 60px;
+  height: 50px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  align-items: center;
+}
+
+.header-input {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.profile-information {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.login-name {
+  font-weight: 700;
+}
+
+.search-button {
+  width: 30px;
+  height: 30px;
 }
