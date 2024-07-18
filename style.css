@@ -181,7 +181,7 @@
   width: 400px;
   background-color: white;
   margin: 10px;
-  padding: 40px;
+  padding: 30px;
   gap: 10px;
   border-radius: 20px;
 }
@@ -203,5 +203,5 @@
 .card-options {
   display: flex;
   justify-content: end;
-  padding-top: 30px;
+  padding-top: 40px;
 }
