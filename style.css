@@ -98,7 +98,8 @@
 }
 
 .login-name {
-  font-weight: 700;
+  font-weight: 800;
+  font-size: 1.3rem;
 }
 
 .search-button {
@@ -126,7 +127,7 @@
   justify-content: center;
 }
 .introduction {
-  font-size: 1rem;
+  font-size: 1.1rem;
   font-weight: 700;
 }
 .logged-user {
@@ -135,7 +136,7 @@
 }
 
 .user-profile-welcome-section {
-  width: 100px;
+  width: 110px;
 }
 
 .badges {
@@ -146,8 +147,8 @@
 }
 
 .badge {
-  width: 80px;
-  font-size: 1.1rem;
+  width: 90px;
+  font-size: calc(1.3rem - 15%);
   color: white;
   background-color: var(--main-color);
   padding: 10px;
