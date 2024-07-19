@@ -4,6 +4,7 @@
   padding: 0;
   margin: 0;
   font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
 }
 
 :root {
@@ -136,7 +137,9 @@
 }
 
 .user-profile-welcome-section {
-  width: 110px;
+  max-width: 10vw;
+  height: 5vw;
+  align-self: center;
 }
 
 .badges {
@@ -148,7 +151,7 @@
 
 .badge {
   width: 90px;
-  font-size: calc(1.3rem - 15%);
+  font-size: clamp(0.9rem, 1rem, 1.5rem);
   color: white;
   background-color: var(--main-color);
   padding: 10px;
@@ -163,7 +166,7 @@
 
 .main {
   display: grid;
-  grid-template-columns: 4fr 1fr;
+  grid-template-columns: 6fr 2fr;
 }
 
 .project-section {
@@ -178,12 +181,12 @@
 }
 
 .card {
-  width: 400px;
+  width: 15vw;
   background-color: white;
   margin: 10px;
   padding: 30px;
-  gap: 10px;
   border-radius: 20px;
+  display: grid;
 }
 
 .card h1 {
@@ -191,17 +194,29 @@
 }
 
 .card p {
-  font-size: 1.2rem;
+  font-size: clamp(0.9rem, 1.3rem, 1.5rem);
   font-weight: 400;
 }
 
 .cards {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(3, minmax(30%, 1fr));
 }
 
 .card-options {
   display: flex;
   justify-content: end;
   padding-top: 40px;
+}
+
+/*  Announcement and trending section**/
+
+.announcements-section h1 {
+  font-size: 1.5rem;
+}
+
+.announc-container {
+  background-color: white;
+  padding: 10px;
+  border-radius: 20px;
 }
