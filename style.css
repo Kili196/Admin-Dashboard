@@ -16,7 +16,7 @@
 .container {
   display: grid;
   grid-template-columns: 1fr 5fr;
-  grid-template-rows: 1fr 1fr 8fr;
+  grid-template-rows: 1fr 1fr 18fr;
   min-height: 100vh;
 }
 
