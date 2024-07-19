@@ -175,7 +175,7 @@
   font-weight: 800;
 }
 .announcements-section {
-  padding: 20px;
+  margin-top: 20px;
   font-size: 1.5rem;
   font-weight: 800;
 }
@@ -217,6 +217,28 @@
 
 .announc-container {
   background-color: white;
-  padding: 10px;
+  padding: 30px;
   border-radius: 20px;
+  margin-top: 20px;
+}
+
+.announc-container h2 {
+  font-size: 1.3rem;
+}
+.announc-container p {
+  font-size: 1rem;
+  font-weight: 500;
+}
+.separator {
+  width: 100%;
+  height: 1px;
+  background-color: rgb(173, 173, 173);
+  border-radius: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.announcments-trending {
+  display: grid;
+  grid-template-rows: 1fr 3fr;
 }
